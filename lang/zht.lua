@@ -1,0 +1,5 @@
+GLOBAL.STRINGS.KNABSACK_NET_TOGGLE = {
+  NET_CAPACITY = '強搶袋捕蟲功能',
+  ENABLED = '啟用',
+  DISABLED = '禁用',
+}
