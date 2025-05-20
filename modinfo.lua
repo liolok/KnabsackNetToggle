@@ -2,7 +2,7 @@ local function T(en, zh, zht) return ChooseTranslationTable({ en, zh = zh, zht =
 
 name = T('Knabsack Net Toggle', '强抢袋捕虫功能开关')
 author = T('ninjabladeJr, liolok', 'ninjabladeJr、李皓奇')
-local date = '2025-05-19'
+local date = '2025-05-20'
 version = date .. '' -- for revision in same day
 description = T(
   [[Enable/disable the "Catch" capacity of Knabsack. No more Bees!
