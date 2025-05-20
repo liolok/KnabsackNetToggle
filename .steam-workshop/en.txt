@@ -1,0 +1,9 @@
+[h2]Enable/disable the "Catch" capacity of Knabsack. No more Bees![/h2]
+[list]
+[*]Disable by Default: Disable the "Catch" capacity of Knabsack when entering world (can configure to enable by default)
+[*]Click on Button to Toggle: Show a button above Knabsack when holding it. (can configure to not show)
+[*]Press key to Toggle: You can [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3445951083]bind key[/url] in mod configuration or bottom of Settings > Controls page. (no binding by default)
+[/list]
+
+[hr][/hr]
+[url=https://github.com/liolok/KnabsackNetToggle]Source Code[/url]

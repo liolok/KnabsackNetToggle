@@ -1,0 +1,9 @@
+[h2]启用/禁用强抢袋的「捕捉」功能。别乱抓蜜蜂了！[/h2]
+[list]
+[*]默认禁用：进入世界后默认禁用强抢袋的「捕捉」功能（可改为默认启用）
+[*]按钮切换：在手持强抢袋时在其上方显示一个按钮用于开关（可配置为不显示）
+[*]按键切换：可在模组配置或设置>控制页面下方[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3445951083]绑定按键[/url]用于开关（默认没有绑定）
+[/list]
+
+[hr][/hr]
+[url=https://github.com/liolok/KnabsackNetToggle]源码[/url]
