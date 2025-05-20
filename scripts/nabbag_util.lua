@@ -8,6 +8,14 @@ local function Get(head, ...)
   return current
 end
 
+local function IsNabBagEquipped()
+  local inventory = Get(ThePlayer, 'replica', 'inventory')
+  if not inventory then return end
+
+  local equipment_in_hand = inventory:GetEquippedItem(EQUIPSLOTS.HANDS)
+  return equipment_in_hand and equipment_in_hand.prefab == 'wortox_nabbag'
+end
+
 local function UpdateNabBagNet(inst)
   if not (inst and inst.prefab == 'wortox_nabbag') then return end
 
@@ -44,7 +52,7 @@ local function ToggleNabBagNet(need_tip)
 end
 
 return {
-  Get = Get,
+  IsNabBagEquipped = IsNabBagEquipped,
   UpdateNabBagNet = UpdateNabBagNet,
   ToggleNabBagNet = ToggleNabBagNet,
 }
